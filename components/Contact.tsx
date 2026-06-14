@@ -44,14 +44,13 @@ export default function Contact() {
               <span className="text-ocean-600">Your Stay?</span>
             </h2>
             <p className="text-navy-600 leading-relaxed mb-8">
-              Send us an enquiry and we'll get back to you within a few hours.
-              We're happy to answer any questions and help you find the perfect
-              property for your holiday.
+              Get in touch with Jeremy and Martha — we're happy to answer any
+              questions and help you find the right property for your holiday.
             </p>
 
             <div className="space-y-5">
               <a
-                href="tel:+441234567890"
+                href="tel:07889401056"
                 className="flex items-center gap-4 group"
               >
                 <div className="w-12 h-12 bg-ocean-100 rounded-xl flex items-center justify-center group-hover:bg-ocean-200 transition-colors">
@@ -59,16 +58,17 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-xs font-semibold text-navy-500 uppercase tracking-wider">
-                    Phone
+                    Call or Message
                   </div>
                   <div className="font-semibold text-navy-900 group-hover:text-ocean-600 transition-colors">
-                    01248 XXX XXX
+                    07889 401056
                   </div>
+                  <div className="text-xs text-navy-400 mt-0.5">9am – 9pm please</div>
                 </div>
               </a>
 
               <a
-                href="mailto:hello@moelfreholidayrentals.co.uk"
+                href="mailto:info@moelfreholidayrentals.co.uk"
                 className="flex items-center gap-4 group"
               >
                 <div className="w-12 h-12 bg-ocean-100 rounded-xl flex items-center justify-center group-hover:bg-ocean-200 transition-colors">
@@ -79,7 +79,7 @@ export default function Contact() {
                     Email
                   </div>
                   <div className="font-semibold text-navy-900 group-hover:text-ocean-600 transition-colors text-sm">
-                    hello@moelfreholidayrentals.co.uk
+                    info@moelfreholidayrentals.co.uk
                   </div>
                 </div>
               </a>

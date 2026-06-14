@@ -88,7 +88,7 @@ export default function BookingProcess() {
             Start Your Booking
           </a>
           <p className="text-navy-400 text-sm mt-4">
-            Or call us on <a href="tel:+441234567890" className="text-ocean-400 hover:text-ocean-300 underline underline-offset-2">01248 XXX XXX</a> — we love a chat.
+            Or call Jeremy &amp; Martha on <a href="tel:07889401056" className="text-ocean-400 hover:text-ocean-300 underline underline-offset-2">07889 401056</a> — 9am to 9pm please.
           </p>
         </div>
       </div>

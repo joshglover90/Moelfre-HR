@@ -86,18 +86,18 @@ export default function Footer() {
             {/* Contact details */}
             <div className="space-y-3 text-sm mb-6">
               <a
-                href="tel:+441234567890"
+                href="tel:07889401056"
                 className="flex items-center gap-3 text-navy-400 hover:text-ocean-400 transition-colors"
               >
                 <Phone className="w-4 h-4 shrink-0" />
-                01248 XXX XXX
+                07889 401056
               </a>
               <a
-                href="mailto:hello@moelfreholidayrentals.co.uk"
+                href="mailto:info@moelfreholidayrentals.co.uk"
                 className="flex items-center gap-3 text-navy-400 hover:text-ocean-400 transition-colors"
               >
                 <Mail className="w-4 h-4 shrink-0" />
-                hello@moelfreholidayrentals.co.uk
+                info@moelfreholidayrentals.co.uk
               </a>
               <div className="flex items-center gap-3 text-navy-400">
                 <MapPin className="w-4 h-4 shrink-0" />

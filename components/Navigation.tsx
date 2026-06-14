@@ -80,13 +80,13 @@ export default function Navigation() {
           {/* CTA */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="tel:+441234567890"
+              href="tel:07889401056"
               className={`flex items-center gap-2 text-sm font-medium transition-colors duration-300 ${
                 scrolled ? "text-navy-600 hover:text-ocean-600" : "text-white/90 hover:text-white"
               }`}
             >
               <Phone className="w-4 h-4" />
-              <span>01248 XXX XXX</span>
+              <span>07889 401056</span>
             </a>
             <a
               href="#contact"
@@ -134,11 +134,11 @@ export default function Navigation() {
           ))}
           <div className="pt-3 border-t border-sand-100 flex flex-col gap-2">
             <a
-              href="tel:+441234567890"
+              href="tel:07889401056"
               className="flex items-center gap-2 px-4 py-3 text-navy-600 font-medium"
             >
               <Phone className="w-4 h-4" />
-              01248 XXX XXX
+              07889 401056
             </a>
             <a
               href="#contact"
