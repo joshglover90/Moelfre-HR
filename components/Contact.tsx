@@ -195,10 +195,9 @@ export default function Contact() {
                         className="w-full px-4 py-3 border border-sand-200 rounded-xl text-navy-800 focus:outline-none focus:ring-2 focus:ring-ocean-400 focus:border-transparent transition-all bg-sand-50 hover:bg-white appearance-none"
                       >
                         <option value="">Any property</option>
-                        <option>The Old Fisherman's Cottage</option>
-                        <option>Anglesey Coastal View</option>
-                        <option>Seabird Retreat</option>
-                        <option>Hen Blas — The Old Manor</option>
+                        <option>Ty Hir Caravan (sleeps 4)</option>
+                        <option>Seiriol View Cottage (sleeps 6)</option>
+                        <option>No 1 Rhos Fford (sleeps 4)</option>
                       </select>
                     </div>
                   </div>

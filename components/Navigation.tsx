@@ -5,11 +5,12 @@ import Link from "next/link";
 import { Menu, X, Anchor, Phone } from "lucide-react";
 
 const navLinks = [
-  { href: "#properties", label: "Properties" },
-  { href: "#location", label: "Location" },
-  { href: "#activities", label: "Things To Do" },
-  { href: "#reviews", label: "Reviews" },
-  { href: "#contact", label: "Contact" },
+  { href: "#properties", label: "Our Properties" },
+  { href: "#ty-hir", label: "Ty Hir Caravan" },
+  { href: "#seiriol", label: "Seiriol View" },
+  { href: "#rhos-fford", label: "No 1 Rhos Fford" },
+  { href: "#location", label: "Explore Anglesey" },
+  { href: "#contact", label: "Contact Us" },
 ];
 
 export default function Navigation() {

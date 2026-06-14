@@ -4,10 +4,9 @@ import { Anchor, Facebook, Instagram, Mail, Phone, MapPin, ExternalLink } from "
 
 const footerLinks = {
   properties: [
-    "The Old Fisherman's Cottage",
-    "Anglesey Coastal View",
-    "Seabird Retreat",
-    "Hen Blas — The Old Manor",
+    "Ty Hir Caravan (sleeps 4)",
+    "Seiriol View Cottage (sleeps 6)",
+    "No 1 Rhos Fford (sleeps 4)",
   ],
   explore: [
     { label: "About Moelfre", href: "#location" },

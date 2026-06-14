@@ -39,15 +39,18 @@ export default function Hero() {
 
             {/* Headline */}
             <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-semibold text-white leading-[1.05] mb-6 animate-slide-up">
-              Your Perfect
+              Welcome to
               <br />
-              <span className="text-sand-200 italic">Coastal Escape</span>
+              <span className="text-sand-200 italic">Moelfre Holiday Rentals</span>
             </h1>
 
-            <p className="text-xl text-white/85 leading-relaxed mb-8 max-w-xl animate-slide-up" style={{ animationDelay: "0.1s" }}>
-              Hand-picked holiday cottages in the idyllic fishing village of
-              Moelfre. Stunning sea views, golden beaches, and unforgettable
-              Welsh hospitality.
+            <p className="text-xl text-white/85 leading-relaxed mb-4 max-w-xl animate-slide-up" style={{ animationDelay: "0.1s" }}>
+              Your perfect coastal escape awaits.
+            </p>
+            <p className="text-lg text-white/75 leading-relaxed mb-8 max-w-xl animate-slide-up" style={{ animationDelay: "0.15s" }}>
+              Discover our three carefully selected holiday homes in the heart
+              of Moelfre, offering comfort, coastal charm and the perfect base
+              to explore Anglesey's stunning beaches, walks and seaside villages.
             </p>
 
             {/* CTAs */}
@@ -62,7 +65,7 @@ export default function Hero() {
                 href="#location"
                 className="btn-ghost text-base px-7 py-3.5"
               >
-                Explore Moelfre
+                Explore Anglesey
               </a>
             </div>
 
@@ -95,10 +98,10 @@ export default function Hero() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-0 md:divide-x divide-white/20">
             {[
-              { value: "8+", label: "Properties" },
-              { value: "200+", label: "Happy guests" },
+              { value: "3", label: "Holiday homes" },
+              { value: "Sleeps 14", label: "Combined capacity" },
               { value: "5★", label: "Average rating" },
-              { value: "10+", label: "Years hosting" },
+              { value: "Moelfre", label: "Heart of the village" },
             ].map((stat) => (
               <div key={stat.label} className="text-center md:px-6">
                 <div className="text-2xl font-serif font-semibold text-white">{stat.value}</div>
