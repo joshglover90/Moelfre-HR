@@ -54,23 +54,23 @@ export default function Hero() {
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-wrap gap-4 mb-12 animate-slide-up" style={{ animationDelay: "0.2s" }}>
+            <div className="flex flex-wrap gap-3 mb-10 animate-slide-up" style={{ animationDelay: "0.2s" }}>
               <a
                 href="#properties"
-                className="inline-flex items-center gap-2 bg-white text-navy-900 font-semibold px-7 py-3.5 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 text-base"
+                className="inline-flex items-center gap-2 bg-white text-navy-900 font-semibold px-6 py-3 rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 text-sm sm:text-base"
               >
                 View Properties
               </a>
               <a
                 href="#location"
-                className="btn-ghost text-base px-7 py-3.5"
+                className="btn-ghost text-sm sm:text-base px-6 py-3"
               >
                 Explore Anglesey
               </a>
             </div>
 
             {/* Trust badges */}
-            <div className="flex flex-wrap items-center gap-6 animate-fade-in" style={{ animationDelay: "0.4s" }}>
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <div className="flex items-center gap-2">
                 <div className="flex">
                   {[...Array(5)].map((_, i) => (
@@ -79,12 +79,12 @@ export default function Hero() {
                 </div>
                 <span className="text-white/85 text-sm font-medium">5.0 · 40+ reviews</span>
               </div>
-              <div className="w-px h-4 bg-white/30" />
+              <div className="hidden sm:block w-px h-4 bg-white/30" />
               <div className="flex items-center gap-2 text-white/85 text-sm font-medium">
                 <Shield className="w-4 h-4 text-coastal-300" />
                 Secure booking
               </div>
-              <div className="w-px h-4 bg-white/30" />
+              <div className="hidden sm:block w-px h-4 bg-white/30" />
               <span className="text-white/85 text-sm font-medium">
                 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Local Welsh hosts
               </span>
