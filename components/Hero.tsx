@@ -11,13 +11,15 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=85&auto=format&fit=crop"
-          alt="Moelfre coastal scenery, Anglesey"
-          className={`w-full h-full object-cover transition-opacity duration-700 ${imgLoaded ? "opacity-100" : "opacity-0"}`}
+          src="/moelfre-bay.jpg"
+          alt="Moelfre bay and village, Anglesey"
+          className={`w-full h-full object-cover object-center transition-opacity duration-700 ${imgLoaded ? "opacity-100" : "opacity-0"}`}
           onLoad={() => setImgLoaded(true)}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-navy-950/60 via-navy-900/30 to-navy-950/70" />
-        <div className="absolute inset-0 bg-gradient-to-r from-navy-950/40 via-transparent to-transparent" />
+        {/* Dark overlay left→right so left-aligned text always has contrast */}
+        <div className="absolute inset-0 bg-gradient-to-r from-navy-950/85 via-navy-950/60 to-navy-950/30" />
+        {/* Extra darkening at top (nav area) and bottom */}
+        <div className="absolute inset-0 bg-gradient-to-b from-navy-950/50 via-transparent to-navy-950/40" />
         {!imgLoaded && (
           <div className="absolute inset-0 bg-gradient-to-br from-navy-900 via-ocean-800 to-coastal-900" />
         )}
