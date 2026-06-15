@@ -29,13 +29,18 @@ export default function Hero() {
       <div className="relative w-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20">
           <div className="max-w-3xl">
-            {/* Location badge */}
-            <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/25 rounded-full px-4 py-2 mb-6 animate-fade-in">
+            {/* Location badge — links to Google Maps */}
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Moelfre+Isle+of+Anglesey+Wales"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/25 rounded-full px-4 py-2 mb-6 animate-fade-in hover:bg-white/25 hover:border-white/40 transition-all duration-200"
+            >
               <MapPin className="w-4 h-4 text-sand-200" />
               <span className="text-white/90 text-sm font-medium">
                 Moelfre, Isle of Anglesey, North Wales
               </span>
-            </div>
+            </a>
 
             {/* Headline */}
             <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-semibold text-white leading-[1.05] mb-6 animate-slide-up">
